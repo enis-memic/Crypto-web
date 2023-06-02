@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export const TokenCard = ({ id }) => {
+  // eslint-disable-next-line
   const [TokenData, setTokenData] = useState(null);
   const [Loading, setLoading] = useState(false);
 
@@ -13,6 +14,7 @@ export const TokenCard = ({ id }) => {
       .catch((error) => console.log(error));
 
     setLoading(false);
+    // eslint-disable-next-line
   }, []);
   if (Loading) {
     return <div>Loading</div>;
@@ -20,7 +22,7 @@ export const TokenCard = ({ id }) => {
   return (
     <div className="token-container">
       <div className="token-info">
-        <img className="token-logo" src={TokenData.image.small} alt="" />
+        <img className="token-logo" src="" alt="" />
         <div className="token-title-container">
           <span className="token-title"></span>
           <span className="token-title-long"></span>

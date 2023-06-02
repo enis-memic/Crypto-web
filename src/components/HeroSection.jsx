@@ -1,9 +1,9 @@
 import React from 'react';
 import search from '../assets/search.svg';
-import { ReactComponent as TelegramIcon } from '../assets/telegram.svg';
-import { ReactComponent as TwitterIcon } from '../assets/twitter.svg';
-import { ReactComponent as DiscordIcon } from '../assets/discord2.svg';
-import { ReactComponent as YoutubeIcon } from '../assets/youtube2.svg';
+import telegram from '../assets/telegram.png';
+import twitter from '../assets/twitter.png';
+import disocrd from '../assets/discord.png';
+import youtube from '../assets/youtube.png';
 import hero from '../assets/hero.svg';
 
 function HeroSection() {
@@ -37,16 +37,16 @@ function HeroSection() {
           <div className="social-links-container">
             <div className="social-links">
               <a href="/">
-                <TelegramIcon />
+                <img src={telegram} alt="" />
               </a>
               <a href="/">
-                <TwitterIcon />
+                <img src={twitter} alt="" />
               </a>
               <a href="/">
-                <YoutubeIcon />
+                <img src={disocrd} alt="" />
               </a>
               <a href="/">
-                <DiscordIcon />
+                <img src={youtube} alt="" />
               </a>
             </div>
           </div>

@@ -181,6 +181,10 @@ p {
   color: #9f9fc8;
 }
 
+.social-links-container .social-links a img {
+  width: 50px;
+  margin-top: 10px;
+}
 .social-link-container .social-links a:hover {
   color: #fff;
 }
