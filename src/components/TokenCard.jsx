@@ -31,7 +31,7 @@ export const TokenCard = ({ id }) => {
             </span>
           </div>
           <div className="token-amount-container">
-            <div className="token-amount">10</div>
+            <div className="token-amount">12</div>
             <div className="token-amount-long">
               <div className="token-price">
                 {tokenData.market_data.current_price.usd}
