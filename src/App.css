@@ -195,3 +195,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.token-logo {
+  width: 100px;
+}
