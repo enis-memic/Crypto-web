@@ -2,7 +2,16 @@ import React from 'react';
 import TokenCard from './TokenCard';
 
 export const FeatureOne = () => {
-  const tokens = ['0x', 'bitcoin', 'ethereum', '0xmonero', '1doge', '3air'];
+  const tokens = [
+    '0x',
+    'bitcoin',
+    'ethereum',
+    '0xmonero',
+    '1doge',
+    '3air',
+    'solana',
+    'xrp-classic-2',
+  ];
 
   return (
     <div className="feature-container">
