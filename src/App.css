@@ -194,6 +194,14 @@ p {
 .tokens-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.token-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .token-logo {
