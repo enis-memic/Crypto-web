@@ -24,7 +24,7 @@ export const FeatureOne = () => {
       </div>
       <div className="feature-description">
         <div className="feature-description-title">
-          <h1>
+          <h1 className="title-feature">
             <span className="highlighted">Swap</span> Any Token, Any Chain
           </h1>
         </div>
