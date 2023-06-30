@@ -28,7 +28,16 @@ export const FeatureOne = () => {
             <span className="highlighted">Swap</span> Any Token, Any Chain
           </h1>
         </div>
-        <p className="feature-description-paragraph"></p>
+        <p className="feature-description-paragraph">
+          We&#39;ve created TokSwap to help you make cross-origin swaps in just
+          few clicks. You'll be able to easily convert your coins from one
+          blockchain to another, or trade them for another currency token.
+        </p>
+        <div className="btn-container">
+          <button className="secondary">
+            <span>Start swapping</span>
+          </button>
+        </div>
       </div>
     </div>
   );
