@@ -21,6 +21,9 @@ export const FeatureOne = () => {
             return <TokenCard id={token} key={index} />;
           })}
         </div>
+        <div className="btn-container">
+          <button className="primary">swap</button>
+        </div>
       </div>
       <div className="feature-description">
         <div className="feature-description-title">
