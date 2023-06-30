@@ -49,6 +49,14 @@ button.primary {
   color: white;
   background: linear-gradient(#30bddc 0%, #5189e1 100%);
 }
+button.secondary {
+  background-color: white;
+}
+button.secondary span {
+  background-image: linear-gradient(60deg, #30bddc, #5189e1);
+  color: transparent;
+  background-clip: text;
+}
 
 span.highlighted {
   background: linear-gradient(#30bddc 0%, #5189e1 100%);
