@@ -318,3 +318,16 @@ p {
 .feature-container .feature-description .feature-description-paragraph {
   line-height: 28px;
 }
+
+.daily-stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  color: #9f9fc8;
+  width: 75%;
+  background-color: #131330;
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 43px;
+}
