@@ -318,6 +318,14 @@ p {
 .feature-container .feature-description .feature-description-paragraph {
   line-height: 28px;
 }
+.gradient-border {
+  background: linear-gradient(#131330 0 0) padding-box,
+    linear-gradient(to right, transparent, #30bddc) border-box;
+  border-radius: 10px;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: double 1px transparent;
+}
 
 .daily-stats-container {
   display: flex;
@@ -330,4 +338,32 @@ p {
   border-radius: 10px;
   font-weight: 500;
   line-height: 43px;
+  margin-top: 30px;
+}
+
+@media only screen and(max-width: 768px) {
+  .daily-stats-container {
+    flex-direction: column;
+  }
+}
+
+.daily-stats-container .metric-container {
+  display: flex;
+  padding: 18px;
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.daily-stats-container .metric-container .metric-title {
+  color: #9f9fc8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.daily-stats-container .metric-container .metric-value {
+  align-self: flex-end;
+  font-size: 36px;
+  font-weight: medium;
 }
