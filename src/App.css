@@ -379,3 +379,20 @@ p {
   background-clip: padding-box, border-box;
   border: double 1px transparent;
 }
+
+.card-container h1 {
+  color: #fff;
+}
+
+.features-list-container {
+  display: grid;
+  width: 75%;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.features-list-title {
+  margin-bottom: 10px;
+  text-align: left;
+  width: 75%;
+}
