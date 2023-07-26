@@ -367,3 +367,15 @@ p {
   font-size: 36px;
   font-weight: medium;
 }
+
+.card-container {
+  padding: 20px;
+  background-color: #131330;
+  color: #9f9fc8;
+  background: linear-gradient(#131330 0 0) padding-box,
+    linear-gradient(to right, transparent, #30bddc) border-box;
+  border-radius: 10px;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: double 1px transparent;
+}
