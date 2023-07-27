@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from './Card';
-import discord from '../assets/discord.svg';
-import youtube from '../assets/youtube.svg';
+import discord from '../assets/discord2.svg';
+import youtube from '../assets/youtube2.svg';
 import paper from '../assets/paper.svg';
 import blog from '../assets/blog.svg';
 

@@ -396,3 +396,25 @@ p {
   text-align: left;
   width: 75%;
 }
+.social-media-promotion-container {
+  width: 75%;
+  margin-top: 30px;
+}
+
+.social-media-promotion-container .card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.social-media-promotion-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-promotion-icons a {
+  margin: 0 10px;
+}
