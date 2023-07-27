@@ -418,3 +418,35 @@ p {
 .social-media-promotion-icons a {
   margin: 0 10px;
 }
+
+.dev-section-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+.dev-section-container .dev-section-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.dev-section-container .dev-section-wrapper .dev-section-text {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dev-section-container .dev-section-wrapper .dev-section-image {
+  display: flex;
+  justify-content: center;
+}
+
+.dev-section-container .dev-section-wrapper .dev-section-image img {
+  max-height: 300px;
+}
+
+.dev-section-container .dev-section-wrapper .btn-wrapper button {
+  margin: 0 10px;
+}
