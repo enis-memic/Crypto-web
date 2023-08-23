@@ -23,7 +23,7 @@ export const TokenCard = ({ id }) => {
     <div className="token-container">
       {tokenData && (
         <div className="token-info">
-          <img className="token-logo" src={tokenData.image.small} alt="" />
+          <img className="token-logo" src={tokenData.image} alt="" />
           <div className="token-title-container">
             <span className="token-title">{tokenData.name}</span>
             <span className="token-title-long">
