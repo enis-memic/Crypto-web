@@ -518,3 +518,16 @@ p {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.footer-sector {
+  width: 100%;
+  display: flex;
+  background-color: #131330;
+}
+
+.footer-container .footer-copyright {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
