@@ -15,7 +15,7 @@ export const TokenCard = ({ id }) => {
         setLoading(false);
       })
       .catch((error) => console.log(error));
-  }, []);
+  }, [id]);
   if (Loading) {
     return <div>Loading</div>;
   }
@@ -34,7 +34,7 @@ export const TokenCard = ({ id }) => {
             <div className="token-amount">{tokenData.market_cap_rank}</div>
             <div className="token-amount-long">
               <div className="token-price">
-                {/* #{tokenData.market_data.current_price.eur} */}
+                {/* {tokenData.market_data.current_price.usd} */}
               </div>
             </div>
           </div>
