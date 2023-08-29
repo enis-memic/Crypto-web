@@ -46,8 +46,8 @@ button {
 }
 
 button.primary {
-  color: white;
-  background: linear-gradient(#30bddc 0%, #5189e1 100%);
+  color: black;
+  background: linear-gradient(#c6c931 0%, #e2d62b 100%);
 }
 button.secondary {
   background-color: white;
