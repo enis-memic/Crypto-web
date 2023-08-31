@@ -131,8 +131,8 @@ p {
 }
 
 .search-container {
-  color: #9f9fc8;
-  background-color: #24245d;
+  color: #000000;
+  background-color: #686102;
   border: 1px solid;
   border-radius: 5px;
   display: flex;
@@ -152,7 +152,7 @@ p {
 }
 
 .search-container .search-input {
-  color: #9f9fc8;
+  color: #000000;
   height: 100%;
   border: none;
   background-color: transparent;
@@ -164,7 +164,7 @@ p {
 }
 
 .search-input::placeholder {
-  color: #9f9fc8;
+  color: #000000;
 }
 
 .search-container .search-btn {
